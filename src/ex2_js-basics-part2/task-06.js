@@ -23,6 +23,6 @@ function isPrime(num)
 			return `Число ${num} - составное число`
 		}
 	}
-  return `Число ${num} - простое число`
+  return "Число ${num} - простое число"
 }
 module.exports = isPrime

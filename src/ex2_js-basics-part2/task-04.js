@@ -1,7 +1,7 @@
 'use strict'
 function isSameArray(arr)
 {
-	let numOfRepeat = 1;
+	let numOfRepeat = 1
 	for (let i = 0;i<arr.length;i++)
 	{
 		if (arr[i] === arr[i+1])

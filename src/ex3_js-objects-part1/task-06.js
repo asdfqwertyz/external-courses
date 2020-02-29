@@ -19,6 +19,6 @@ function getDeepCopyObj(obj)
       }
     }
   }
-return cloneObj;
+  return cloneObj;
 }
 module.exports = getDeepCopyObj

@@ -12,7 +12,7 @@ function getType(arg)
 	}
 	else if (typeof(arg) === 'string')
 	{
-		return 'string'
+		return "string"
 	}
 		return undefined
 }

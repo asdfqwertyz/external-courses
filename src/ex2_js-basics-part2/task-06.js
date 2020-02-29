@@ -8,7 +8,7 @@ function isPrime(num)
 	{
 		return `Число ${num} - составное число`
 	}
-	if (num === 2)
+	if (num ===2)
 	{
 		return `Число ${num} - простое число`
 	}

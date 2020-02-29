@@ -13,6 +13,6 @@ function isSameArray(arr)
   {
     return true
   }
-return false
+  return false
 }
 module.exports = isSameArray

@@ -6,7 +6,7 @@ function getMaxDigit(arr)
 	{
 		if (MaxDigitArray<arr[i])
 		{
-			MaxDigitArray=arr[i]
+			MaxDigitArray = arr[i]
 		}
 	}
 	return MaxDigitArray

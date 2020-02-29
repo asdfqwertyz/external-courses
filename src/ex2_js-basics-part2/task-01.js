@@ -13,6 +13,6 @@ function getType(arg)
   {
     return 'string'
   }
-return undefined
+  return undefined
 }
 module.exports = getType

@@ -1,11 +1,15 @@
 'use strict'
 function showObj(str,obj)
 {
-    let objClone = obj
-    if (obj.hasOwnProperty(str) !== true)
+	 if (obj.hasOwnProperty(str) !== true)
     {
-      objClone[str] = "new"
+      obj[str] = "new" //eslint-disable-line
     }
+	let objClone = {}
+	for (let key in obj)
+	{
+		objClone[key] = obj[key]
+	}
 
 	return obj
 }

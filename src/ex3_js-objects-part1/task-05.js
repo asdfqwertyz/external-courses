@@ -6,6 +6,6 @@ function getCloneObj(obj)
   {
     cloneObj[key] = obj[key]
   }
-return cloneObj
+  return cloneObj
 }
 module.exports = getCloneObj

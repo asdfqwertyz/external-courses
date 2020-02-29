@@ -9,6 +9,6 @@ function getMaxDigit(arr)
       MaxDigitArray=arr[i]
     }
   }
-return MaxDigitArray
+  return MaxDigitArray
 }
 module.exports = getMaxDigit

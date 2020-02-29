@@ -4,8 +4,8 @@ function getCloneObj(obj)
 	let cloneObj = {}
 	for (let key in obj)
 	{
-		cloneObj[key] = obj[key]
+	cloneObj[key] = obj[key]
 	}
-	return cloneObj
+return cloneObj
 }
 module.exports = getCloneObj

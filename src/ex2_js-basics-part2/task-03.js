@@ -9,9 +9,9 @@ function getQuantity(arr){
       if (arr[i] % 2 === -1 || arr[i] % 2 === 1){
         arrNum[1]++
       }
-      if (arr[i] === 0){
-        arrNum[2]++
-      }
+    }
+    if (arr[i] === 0){
+      arrNum[2]++
     }
   }
   return arrNum

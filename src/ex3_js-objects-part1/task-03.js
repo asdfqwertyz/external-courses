@@ -1,8 +1,5 @@
 'use strict'
 function showObj(str,obj){
-  if (obj.hasOwnProperty(str)){	
-    return true
-  }
-  return false
+  return obj.hasOwnProperty(str)
 }
 module.exports = showObj

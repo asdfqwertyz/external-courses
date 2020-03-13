@@ -1,9 +1,7 @@
 'use strict'
-function getCloneObj(obj)
-{
+function getCloneObj(obj){
   let cloneObj = {}
-  for (let key in obj)
-  {
+  for (let key in obj){
     cloneObj[key] = obj[key]
   }
   return cloneObj

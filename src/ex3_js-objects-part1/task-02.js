@@ -1,8 +1,6 @@
 'use strict'
-function showObj(obj)
-{
-  for (let key in obj)
-  {
+function showObj(obj){
+  for (let key in obj){
     console.log(key,obj[key])
   }
   return

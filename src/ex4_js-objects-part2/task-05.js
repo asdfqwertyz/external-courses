@@ -1,8 +1,6 @@
 'use strict'
-function searchWord(str,searchStr)
-{
-  if (str.includes(searchStr))
-  {
+function searchWord(str,searchStr){
+  if (str.includes(searchStr)){
     return true
   }
   return false

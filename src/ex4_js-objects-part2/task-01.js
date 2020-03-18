@@ -1,7 +1,8 @@
 'use strict'
-function findProperty(prop,obj)  //eslint-disable-line{
-	if (obj.hasOwnProperty(prop) === false){
-      return obj[prop]
-    }
+function findProperty(prop,obj){
+	if (!obj.hasOwnProperty(prop)){
+    return obj[prop]
+  }
+  return undefined
 }
 module.exports = findProperty

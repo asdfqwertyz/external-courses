@@ -1,9 +1,7 @@
 'use strict'
-function getReverse(str)
-{
+function getReverse(str){
   let reverseStr = []
-  for (let i = 1;i<=str.length;i++)
-  {
+  for (let i = 1;i<=str.length;i++){
     reverseStr[i] = str[str.length-i]
   }
   return(reverseStr.join(''))

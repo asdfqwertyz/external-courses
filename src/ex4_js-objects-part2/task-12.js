@@ -1,6 +1,5 @@
 'use strict'
-function getSum(num1,num2)
-{
+function getSum(num1,num2){
   return Number((num1+num2).toFixed(3))
 }
 module.exports = getSum

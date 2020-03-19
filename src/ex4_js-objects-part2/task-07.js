@@ -1,11 +1,7 @@
 'use strict'
-function changeString(str,num){
-  let newStr = ''
+function changeString(str, num){
   if (str.length > num){
-    for (let i=0; i<num-1;i++){
-      newStr +=str[i]
-    }
-    return newStr+'…'
+    return str.slice(0, num-1) + '…'
   }
   return str
 }

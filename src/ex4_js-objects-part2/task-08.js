@@ -1,18 +1,13 @@
-'use strict'
+"use strict"
 function getLowerCamelCase(str){
-  let newStr = ''
-  let strArr
-  strArr = str.toLowerCase().split(' ')
-  for (let i = 0; i<strArr.length; i++){
-    if (strArr[i] !== ''){
-      if (i === 0){
-        newStr+=strArr[i][0].toLowerCase() + strArr[i].substring(1) 
-      }
-      else{
-        newStr+=strArr[i][0].toUpperCase() + strArr[i].substring(1) 
-      }
+  let newStr = ""
+  let strArr = str.toLowerCase().split(" ")
+  newStr += strArr[0][0].toLowerCase() + strArr[0].substring(1)
+  for (let i = 1; i < strArr.length; i++){
+    if (strArr[i] !== ""){
+      newStr += strArr[i][0].toUpperCase() + strArr[i].substring(1)
     }
   }
- return newStr
+  return newStr
 }
 module.exports = getLowerCamelCase

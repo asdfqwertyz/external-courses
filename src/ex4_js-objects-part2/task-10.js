@@ -1,5 +1,5 @@
 'use strict'
-function getReverse(str){
+function getReverse(str) {
   let newStr = str.split('').reverse().join('')
   return newStr
 }

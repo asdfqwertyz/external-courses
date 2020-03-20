@@ -1,8 +1,8 @@
 'use strict'
-function showString(str){
+function showString(str) {
   let newStr = ''
   let strArr = str.split(' ')
-  for (let i = 0; i < strArr.length; i++){
+  for (let i = 0; i < strArr.length; i++) {
     if (strArr[i] !== ''){
       newStr+=strArr[i][0].toUpperCase() + strArr[i].substring(1) + ' '
     }

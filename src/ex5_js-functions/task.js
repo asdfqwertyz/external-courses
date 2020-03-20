@@ -5,9 +5,9 @@ const Calculator = {
     this.curentNum += a;
     return b => this.add(b);
   },
-  substact: function (a = 0) {
+  subtract: function (a = 0) {
     this.curentNum -= a;
-    return b => this.substact(b);
+    return b => this.subtract(b);
   },
   divide: function (a = 0) {
     this.curentNum /= a;

@@ -1,6 +1,5 @@
 'use strict'
 function reduce(array, callback, initialValue) {
-  let currentItem;
   let previousValue;
   let beginNum;
   if (initialValue !== undefined) {
@@ -11,8 +10,7 @@ function reduce(array, callback, initialValue) {
     beginNum = 1;
   }
   for (let i = beginNum; i < array.length; i++) {
-    currentItem = array[i];
-    previousValue = callback(previousValue, currentItem, i, array);
+    previousValue = callback(previousValue, array[i], i, array);
   }
   return previousValue;
 }

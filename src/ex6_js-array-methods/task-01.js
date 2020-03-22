@@ -22,9 +22,7 @@ function slice(array, begin, end) {
     }
   }
   for (let i = Math.abs(newBegin); i < Math.abs(newEnd); i++) {
-    if (array[i] !== undefined) {
-      newArray.push(array[i]);
-    }
+    newArray.push(array[i]);
   }
   return newArray;
 }

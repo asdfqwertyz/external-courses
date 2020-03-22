@@ -2,10 +2,8 @@
 function map(array, callback) {
   let newArr = [];
   let arr = [...array];
-  let item;
   for (let i = 0; i < arr.length; i++) {
-    item = arr[i];
-    newArr.push(callback(item, i, arr));
+    newArr.push(callback(arr[i], i, arr));
   }
   return newArr;
 }

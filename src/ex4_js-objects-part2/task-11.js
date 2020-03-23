@@ -1,20 +1,15 @@
 'use strict'
 function getCountWords(str) {
-  let newArr = [];
-  let uniqueWords = [];
-  let countUniqueWords = -1;
+  let objWords = {};
   for (let i = 0; i < str.length; i++) {
-    if(!newArr.includes(str[i])) {
-      countUniqueWords++;
-      uniqueWords[countUniqueWords] = 0;
-      newArr.push(str[i]);
-    } 
-    else {
-      uniqueWords[countUniqueWords]++;
+    if (!objWords.hasOwnProperty(str[i])) {
+      objWords[str[i]] = 1;
+    } else {
+      objWords[str[i]]++;
     }
   }
-  for (let i = 0; i < newArr.length; i++) {
-    console.log(`Символ ${newArr[i]} - ${uniqueWords[i]+1}`);
+  for (let key in objWords) {
+    console.log(`Символ ${key} - ${objWords[key]}`);
   }
 }
 module.exports = getCountWords

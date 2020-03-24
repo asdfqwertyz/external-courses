@@ -1,5 +1,5 @@
 'use strict'
-function showObj(str,obj){
+function isObjHasProperty(str,obj){
   return obj.hasOwnProperty(str)
 }
-module.exports = showObj
+module.exports = isObjHasProperty

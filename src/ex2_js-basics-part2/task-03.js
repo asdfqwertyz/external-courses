@@ -1,19 +1,19 @@
 'use strict'
-function getQuantity(arr){
-	let arrNum = [0,0,0]
-	for (let i = 0; i < arr.length; i++){
-		if (arr[i] !== null && arr[i] !== undefined && arr[i] !== 0){
-      if (arr[i] % 2 === 0){
-        arrNum[0]++
+function getNumOfOddEvenZero(arr) {
+  let arrOfOddEvenZero = [0, 0, 0];
+  for (let i = 0; i < arr.length; i++) {
+    if (typeof arr[i] === "number") {
+      if (arr[i] % 2 === 0 && arr[i] !== 0) {
+        arrOfOddEvenZero[0]++;
       }
-      if (arr[i] % 2 === -1 || arr[i] % 2 === 1){
-        arrNum[1]++
+      if (arr[i] % 2 === -1 || arr[i] % 2 === 1) {
+        arrOfOddEvenZero[1]++;
       }
     }
-    if (arr[i] === 0){
-      arrNum[2]++
+    if (arr[i] === 0) {
+      arrOfOddEvenZero[2]++;
     }
   }
-  return arrNum
+  return arrOfOddEvenZero;
 }
-module.exports = getQuantity
+module.exports = getNumOfOddEvenZero

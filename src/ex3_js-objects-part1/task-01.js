@@ -1,8 +1,8 @@
 'use strict'
-let obj = {}
-obj.a = 'sss'
-obj.b = 2
-obj.s = undefined
-obj.e = null
-obj.nan = NaN
-delete obj.s
+let taskObject = {}
+obj.taskObject = 'sss'
+obj.taskObject = 2
+obj.taskObject = undefined
+obj.taskObject = null
+obj.taskObject = NaN
+delete obj.taskObject

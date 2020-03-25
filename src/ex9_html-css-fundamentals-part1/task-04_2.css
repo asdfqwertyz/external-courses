@@ -1,0 +1,25 @@
+.tripleFrame {
+	position: relative;
+	background-color: green;
+	margin: 50px 50px;
+}
+.tripleFrame::before {
+	left: -5px;
+	top: -5px;
+	background-color: blue;
+}
+.tripleFrame::after {
+	top: -10px;
+	left: -10px;
+	background-color: red;
+}
+
+.tripleFrame, .tripleFrame::before, .tripleFrame:after {
+	width: 700px;
+	height: 700px;
+}
+
+.tripleFrame:before, .tripleFrame::after {
+	position: absolute;
+	content: "";
+}

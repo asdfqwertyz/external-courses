@@ -1,0 +1,22 @@
+.bottomFrame {
+	background-color: blue;
+	left: 15px;
+	top: 15px;
+}
+.centerFrame {
+	background-color: green;
+	left: 10px;
+	top: 10px;
+}
+.topFrame {
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	background-color: red;
+}
+.bottomFrame, .centerFrame, .topFrame {
+	position: absolute;
+	margin:50px 50px;
+	width: 700px;
+	height: 700px;
+}

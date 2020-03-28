@@ -1,7 +1,7 @@
 'use strict'
-function getKeysAndValues(obj){
-  for (let key in obj){
-    console.log(key,obj[key])
+function getKeysAndValues(obj) {
+  for (let key in obj) {
+    console.log(key, obj[key])
   }
   return
 }

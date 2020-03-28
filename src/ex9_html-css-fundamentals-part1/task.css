@@ -5,17 +5,21 @@ body {
 	color: #535353;
 	cursor: default;
 }
+
 .redColor {
 	color: red;
 }
+
 hr {
 	height: 3px;
 	background-color: black;
 }
+
 h2 {
 	color: black;
 	margin-bottom: 0px;
 }
+
 input {
 	height: 20px;
 	border-radius: 5px;
@@ -23,15 +27,19 @@ input {
 	border: 2px solid #999999;
 	padding: 3px;
 }
+
 table {
 	border-spacing: 15px;
 }
+
 table td {
 	width: 100px;
 } 
+
 tr:nth-child(4) {
 	vertical-align: top;
 }
+
 textarea {
 	border: 2px solid #999999;
 	border-radius: 5px;
@@ -39,6 +47,7 @@ textarea {
 	height: 80px;
 	resize: none;
 }
+
 button {
 	margin-left: 80px;
 	padding: 5px;
@@ -48,12 +57,15 @@ button {
 	outline: none;
 	font-weight: bold;
 }
+
 button:active {
 	box-shadow: 0px 1px 4px black;
 }
+
 button:hover {
 	cursor: pointer;
 }
+
 .formFieldHint {
 	position: relative;
 	text-align: center;
@@ -64,6 +76,7 @@ button:hover {
 	color: #fccfcc;
 	background-color: #d45252;
 }
+
 .formFieldHint::before {
 	position: absolute;
 	top: 8px;

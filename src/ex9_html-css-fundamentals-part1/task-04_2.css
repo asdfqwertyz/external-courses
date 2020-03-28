@@ -3,11 +3,13 @@
 	background-color: green;
 	margin: 50px 50px;
 }
+
 .tripleFrame::before {
 	left: -5px;
 	top: -5px;
 	background-color: blue;
 }
+
 .tripleFrame::after {
 	top: -10px;
 	left: -10px;

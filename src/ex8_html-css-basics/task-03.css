@@ -1,0 +1,30 @@
+.version1 {
+  box-sizing: border-box;
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+}
+
+.version2 {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  margin-top:5px;
+}
+
+.version2_1 {	
+  position: absolute;
+  width: 248px;
+  height: 248px;
+  background-color: white;
+  left: 1px;
+  bottom: 1px;
+}
+
+.version3 {
+  margin-top:5px;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0px 0px 1px 1px black;
+}

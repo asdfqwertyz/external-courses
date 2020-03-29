@@ -41,7 +41,7 @@
 }
 
 .star, .star::before {
-    border-right:  10px solid transparent;
+    border-right: 10px solid transparent;
     border-bottom: 7px solid #888888;
     border-left: 10px solid transparent;
 }
@@ -65,7 +65,7 @@
     content: "";
     left: -6px;
     top: -5px;
-    border-right:  2.5px solid transparent;
+    border-right: 2.5px solid transparent;
     border-bottom: 7px solid #888888;
     border-left: 2.5px solid transparent;
     transform: rotate(-35deg);

@@ -194,7 +194,7 @@
 	margin: 0 auto;
 }
 
-.content__text {
+.content-first__text {
 	position: absolute;
 	top: 62%;
 	font-size: 58.35px;
@@ -205,7 +205,7 @@
 	z-index: 2;
 }
 
-.content__text1 {
+.content-second__text {
 	position: absolute;
 	top: 77%;
 	left: 27%;
@@ -216,7 +216,7 @@
 	color: white;
 }
 
-.content__text2 {
+.content-third__text {
 	top: 70%;
 	left: 16%;
 	position: absolute;
@@ -240,7 +240,7 @@
 	height: 241px;
 }
 
-.sidebar__bar, .sidebar__bar1 {
+.sidebar-first__bar, .sidebar-second__bar {
   position: relative;
 	content: "";
 	width: 100%;
@@ -251,7 +251,7 @@
 	cursor: pointer;
 }
 
-.sidebar__bar::before, .sidebar__bar1::before {
+.sidebar-first__bar::before, .sidebar-second__bar::before {
 	position: absolute;
 	width: 32px;
 	height: 28px;
@@ -261,7 +261,7 @@
 	top: calc(50% - 14px);
 }
 
-.sidebar__bar::after, .sidebar__bar1::after {
+.sidebar-first__bar::after, .sidebar-second__bar::after {
 	position: absolute;
 	font-size: 14px;
 	content: "Like";
@@ -271,35 +271,35 @@
 	left: 53%;
 }
 
-.sidebar__bar {
+.sidebar-first__bar {
 	background-color: #8aca51;
 }
 
-.sidebar__bar::before {
+.sidebar-first__bar::before {
 	background-image: url(like_green.svg);
 }
 
-.sidebar__bar:active::before {
+.sidebar-first__bar:active::before {
 	background-image: url(like_green_hover.svg);
 }
 
-.sidebar__bar::after {
+.sidebar-first__bar::after {
 	color: white;
 }
 
-.sidebar__bar1 {
+.sidebar-second__bar {
 	background-color: #feeb75;
 }
 
-.sidebar__bar1::before {
+.sidebar-second__bar::before {
 	background-image: url(like_yellow.svg);
 }
 
-.sidebar__bar1:active::before {
+.sidebar-second__bar:active::before {
 	background-image: url(like_yellow_hover.svg);
 }
 
-.sidebar__bar1::after {
+.sidebar-second__bar::after {
 	color: #cc9800;
 }
 
@@ -327,13 +327,13 @@
 	margin: 0 auto;
 }
 
-.footer1, .footer2 {
+.footer-first, .footer-second {
 	display: flex;
 	padding-top: 30px;
 	width: 45%;
 }
 
-.footer1__content, .footer2__content{
+.footer-first__content, .footer-first__content{
 	padding-left: 30px;
 	padding-top: 20px;
 }
@@ -412,15 +412,15 @@
 		flex-direction: column;
 		}
 
-	.footer1, .footer2 {
+	.footer-first, .footer-second {
 		width: 60%;
 		margin: 0 auto;
 	}
 
-	.footer1__content, .footer2__content{
+	.footer-first__content, .footer-second__content{
 		padding-top: 0px;
 	}
-	.footer2__content {
+	.footer-second__content {
 		padding-left: 40px;
 	}
 }

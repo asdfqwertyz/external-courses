@@ -1,27 +1,27 @@
-.threeFrame {
+.threeFrames {
 	position: relative;
 	background-color: green;
 	margin: 50px 50px;
 }
 
-.threeFrame::before {
+.threeFrames::before {
 	left: -5px;
 	top: -5px;
 	background-color: blue;
 }
 
-.threeFrame::after {
+.threeFrames::after {
 	top: -10px;
 	left: -10px;
 	background-color: red;
 }
 
-.threeFrame, .threeFrame::before, .threeFrame::after {
+.threeFrames, .threeFrames::before, .threeFrames::after {
 	width: 700px;
 	height: 700px;
 }
 
-.threeFrame::before, .threeFrame::after {
+.threeFrames::before, .threeFrames::after {
 	position: absolute;
 	content: "";
 }

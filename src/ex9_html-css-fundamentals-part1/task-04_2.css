@@ -1,27 +1,27 @@
-.tripleFrame {
+.cennterFrame {
 	position: relative;
 	background-color: green;
 	margin: 50px 50px;
 }
 
-.tripleFrame::before {
+.centerFrame::before {
 	left: -5px;
 	top: -5px;
 	background-color: blue;
 }
 
-.tripleFrame::after {
+.centerFrame::after {
 	top: -10px;
 	left: -10px;
 	background-color: red;
 }
 
-.tripleFrame, .tripleFrame::before, .tripleFrame:after {
+.centerFrame, .centerFrame::before, .centerFrame::after {
 	width: 700px;
 	height: 700px;
 }
 
-.tripleFrame:before, .tripleFrame::after {
+.centerFrame::before, .centerFrame::after {
 	position: absolute;
 	content: "";
 }

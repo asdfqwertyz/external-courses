@@ -4,45 +4,60 @@
     <title>Задание на дополнительный балл</title>
     <link rel="stylesheet" type="text/css" href="task.css" />
     <meta charset="utf-8" />
+    <script type="text/javascript" src="task.js" async></script>
   </head>
   <body>
-    <h2>Form Here</h2>
-    <span class="redColor">* required fields</span>
-    <hr />
-    <table>
-      <tr>
-        <td>Name:</td>
-        <td>
-          <input type="text" name="name" placeholder="Максим" />
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Email:</td>
-        <td>
-          <input type="email" name="email" placeholder="maxiliuk1@mail.ru" />
-        </td>
-        <td>
-          <div class="formFieldHint">Form field hint</div>
-        </td>
-      </tr>
-      <tr>
-        <td>Website:</td>
-        <td>
-          <input type="url" name="webSite" placeholder="www.google.com" />
-        </td>
-        <td>
-          <div class="formFieldHint">Form field hint</div>
-        </td>
-      </tr>
-      <tr>
-        <td>Message:</td>
-        <td>
-          <textarea></textarea>
-        </td>
-        <td></td>
-      </tr>
-    </table>
-    <button type="submit">Submit</button>
+    <form method="GET">
+      <h2>Form Here</h2>
+      <span class="redColor">* required fields</span>
+      <hr />
+      <table>
+        <tr>
+          <td>
+            <label for="name">Name:</label>
+          </td>
+          <td>
+            <input id="name" type="text" name="name" placeholder="Имя" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>
+          	<label for="email">Email*:</label>
+          </td>
+          <td>
+            <input required id="email" type="email" name="email" placeholder="Почта" />
+          </td>
+          <td>
+            <div class="formFieldHint">Form field hint
+            	<div class="formFieldHint-triangle"></div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          	<label for="webSite">Website*:</label>
+          </td>
+          <td>
+            <input required id="webSite" type="url" name="webSite" placeholder="Сайт" />
+          </td>
+          <td>
+              <div class="formFieldHint">Form field hint
+            	<div class="formFieldHint-triangle"></div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+             <label for="message">Message:</label>
+          </td>
+          <td>
+            <textarea id="message" name="message"></textarea>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+      <button class="submit" type="submit">Submit</button>
+    </form>
   </body>
 </html>

@@ -7,18 +7,18 @@ html {
  	src: url(PixelTimesBold.ttf); 
  }
 
-.divVersion1 {
+.block-version-first {
 	background-color: rgba(255,15,6,0.5)
 }
 
-.divVersion2 {
+.block-version-second {
 	background-image: url(https://www.xtile.ru/images/content/beige_50.jpg);
 	width: 200px;
 	color: blue;
 	font-family: cursive;
 }
 
-.divVersion3 {
+.block-version-third {
 	background-color: #000533;
 	color: #FFFFFF;
 	width: 400px;
@@ -48,15 +48,21 @@ table {
 	border-radius: 40px 10px 40px 10px;
 }
 
-.table {
-	background-color: rgba(255,222,0,0.4);
-	font-size: 1.3em;
-}
-
 pre {
 	font-size: 1.4rem;
 }
 
 h3 {
 	font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+
+ol {
+	color: rgba(200,100,50,0.8);
+	font-weight: bolder;
+	font-size: 1.4rem;
+	font-family: fantasy;
+}
+
+h1 {
+	font-family: PixelTimesBold;
 }

@@ -19,7 +19,7 @@ article {
 
 aside {
   background: pink;
-  flex-basis: 33%;
+  flex-basis: 600px;
 }
 
 header, article, section, .module {

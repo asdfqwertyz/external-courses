@@ -6,7 +6,7 @@ function openMenu() {
     scrollMenu.setAttribute("class", "scroll-menu");
     const header = document.querySelector('.header');
     const arrow = document.querySelector('.arrow')
-    for (let i = 0; i<arrayOfLinksName.length; i++)
+    for (let i = 0; i < arrayOfLinksName.length; i++)
     {
         scrollMenu.appendChild(document.createElement('a')).setAttribute("class", "menu-item")
         scrollMenu.childNodes[i].setAttribute("href", "#")

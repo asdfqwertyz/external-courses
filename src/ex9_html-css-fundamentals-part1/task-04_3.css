@@ -1,0 +1,7 @@
+.threeFrames {
+	margin: 50px 50px;
+	width: 700px;
+	height: 700px;
+	background-color: red;
+	box-shadow: 6px 6px 0px green, 12px 12px 0px blue;
+}

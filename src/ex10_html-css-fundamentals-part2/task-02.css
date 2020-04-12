@@ -1,0 +1,14 @@
+html {
+	font-size: 14px;
+}
+.age {
+	width: 70px;
+}
+form {
+	width: 60%;
+	margin:0 auto;
+	font-size: 1.1rem;
+}
+hr {
+	margin-top: 20px;
+}

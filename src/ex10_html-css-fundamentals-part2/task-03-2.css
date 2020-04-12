@@ -1,0 +1,19 @@
+tr:first-child {
+	background-color: #e3eaf3;
+	text-align: center;
+	height: 30px;
+}
+
+tr:nth-child(n+2) {
+	background-color: #f2f6fa;
+}
+tr:nth-child(2n+1) {
+	background-color: #e8edf4;
+}
+
+tr:nth-child(n+2):hover {
+	background-color: #e2e5e9;
+}
+td:first-child {
+	text-transform: capitalize;
+}

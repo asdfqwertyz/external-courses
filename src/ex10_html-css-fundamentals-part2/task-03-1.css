@@ -1,0 +1,22 @@
+table {
+	margin: 5% auto;
+	width: 35%;
+	border-spacing: 5px;
+	cursor: default;
+	color: #757884;
+}
+
+tr {
+	background-color: red;
+	height: 50px;
+}
+tr:first-child > td {
+	padding-left: 0px;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	font-weight: 600;
+
+}
+td {
+	padding-left: 20px;
+}

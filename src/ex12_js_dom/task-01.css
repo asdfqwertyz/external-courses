@@ -3,10 +3,8 @@
 	width: 1000px;
 	height: 700px;
 	margin: 80px auto;
-	border:1px solid black;
+	border: 1px solid black;
 	border-radius: 15px;
-	background-image: 'url(assets/img2.jpg)';
-  background-size: 100% 100%;
 }
 
 .slider__button {
@@ -32,6 +30,8 @@
 }
 
 .slider__img {
+	background: url(assets/img2.jpg);
+	background-size: 100% 100%;
 	border-radius: 15px 15px 0 0;
 	width: 1000px;
 	height: 630px;
@@ -60,4 +60,3 @@
 
 .button:focus {
 	opacity: 1
-}

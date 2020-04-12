@@ -169,16 +169,43 @@
 	background-image: url(img/avatar.svg);
 }
 
+.scroll-menu {
+	box-sizing: border-box;
+	width: 152px;
+	height: 129px;
+	background-color: #0067A3;
+	position: absolute;
+	left: 1000px;
+	top: 56px;
+	font-size: 18px;
+	font-family: Roboto;
+	font-weight: normal;
+	font-style: normal;
+	color: white;
+}
+
+.menu-item {
+	color: white;
+	text-decoration: "none";
+	display: block;
+	padding: 10px 5px;
+	text-decoration: none;
+}
+
+.menu-item:active {
+	box-shadow: 0 0 5px black;
+}
+
+.menu-item:hover {
+	opacity: 0.7;
+}
+
 .arrow {
 	position: absolute;
 	width: 24px;
 	height: 24px;
 	left: 40px;
 	top: 8px;
-}
-
-.arrow:active {
-	transform: rotate(180deg);
 }
 
 .arrow_down {
@@ -203,7 +230,7 @@
 
 .about {
 	position: absolute;
-	width: 279px;
+	width: 27	9px;
 	height: 21px;
 	left: 849px;
 	top: 17px;
@@ -220,7 +247,7 @@
 }
 
 .tasks_active {
-	width: 138px;
+	width: 150px;
 	left: 67px;
 }
 

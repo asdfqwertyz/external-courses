@@ -116,12 +116,12 @@
    border-radius: 0%;
   }
   65% {
-  	transform: rotate(180deg);
-  	border-radius: 0%;
+   transform: rotate(180deg);
+   border-radius: 0%;
   }
   85% {
-  	background: linear-gradient(to bottom, #ff00bb, gold);
-  	border-radius: 0%;
+   background: linear-gradient(to bottom, #ff00bb, gold);
+   border-radius: 0%;
   }
   100% {
     border-radius: 50%;

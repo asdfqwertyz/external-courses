@@ -1,3 +1,7 @@
 img{
-    width: 200px;
+	width: 200px;
+}
+
+.list-background {
+	background-color: green;
 }

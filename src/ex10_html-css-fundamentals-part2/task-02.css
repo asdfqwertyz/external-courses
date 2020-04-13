@@ -4,11 +4,24 @@ html {
 .age {
 	width: 70px;
 }
-form {
+.mainForm {
 	width: 60%;
 	margin:0 auto;
 	font-size: 1.1rem;
 }
-hr {
-	margin-top: 20px;
+
+.field {
+	margin-bottom: 15px;
+}
+
+fieldset:first-child {
+	padding-top: 15px;
+}
+
+.field__password {
+	padding-top: 10px;
+}
+
+.hr-margin-bottom {
+	margin-bottom: 15px;
 }

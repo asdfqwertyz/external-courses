@@ -8,20 +8,11 @@
 	</head>
 	<body>
 		<header class="header">
-			<div class="app-logo">
-				<div class="app-logo__text">Awesome Kanban Board</div>
-				<div class="logo">
-					<div class="circle circle_first"></div>
-					<div class="circle circle_second"></div>
-					<div class="circle circle_third"></div>
-					<div class="line line_first"></div>
-					<div class="line line_second"></div>
-					<div class="line line_third"></div>
-				</div>
+			<div class="logo">
+				<div class="logo__icon"></div>
+				<div class="logo__text">Awesome Kanban Board</div>
 			</div>
-			<div class="create-list">
-				<div class="create-list__text">Create new list</div>
-			</div>
+			<button class="create-list">Create new list</button>
 			<div class="user-menu">
 				<div class="user-avatar"></div>
 				<div class="arrow">
@@ -29,10 +20,14 @@
 				</div>
 			</div>
 		</header>
+		<main>
+			<div class="content">
+			</div>
+		</main>
 		<footer class="footer">
-			<div class="about">Kanban board by &#60NAME&#62 &#60YEARS&#62</div>
 			<div class="tasks tasks_active">Active tasks: &#60N&#62</div>
 			<div class="tasks tasks_finished">Finished tasks &#60M&#62</div>
+			<div class="about">Kanban board by &#60NAME&#62 &#60YEARS&#62</div>
 		</footer>
 	</body>
 </html>

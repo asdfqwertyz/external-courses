@@ -1,4 +1,4 @@
-.slider {
+#slider {
 	position: relative;
 	width: 1000px;
 	height: 700px;
@@ -7,7 +7,7 @@
 	border-radius: 15px;
 }
 
-.slider__button {
+#slider__button {
 	display: flex;
 }
 
@@ -16,7 +16,7 @@
 	width: 50%;
 	height: 70px;
 	border-radius: 1px;
-	border: 1px solid black;
+	border: 1px solid #76daff;
 	font-size: 40px;
 	color: #76daff;
 	font-weight: bolder;
@@ -24,29 +24,27 @@
 	font-family: monospace;
 	cursor: pointer;
 	user-select: none;
-	opacity: 0.6;
 	outline: none;
 
 }
 
-.slider__img {
-	background: url(assets/img2.jpg);
+#slider__img {
 	background-size: 100% 100%;
 	border-radius: 15px 15px 0 0;
 	width: 1000px;
 	height: 630px;
 	transition-property: background-image;
 	transition-duration: 0.5s;
-	transition-timing-function: linear;
+	transition-timing-function: ease-in-out;
 }
 
 .button_prev {
-	background-color: blue;
+	background-color: black;
 	border-radius: 0 0 0 10px;
 }
 
 .button_next {
-	background-color: green;
+	background-color: black;
 	border-radius: 0 0 10px 0;
 }
 
@@ -55,5 +53,5 @@
 }
 
 .button:hover {
-	opacity: 1;
+	opacity: 0.9;
 }

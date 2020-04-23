@@ -6,7 +6,6 @@ class electricalAppliances {
     this.isInclude = isInclude;
   }
 }
-
 class Fridge extends electricalAppliances {
   constructor(name, color, power, isInclude, capacity, price) {
     super(name, color, power, isInclude);
@@ -14,7 +13,6 @@ class Fridge extends electricalAppliances {
     this.capacity = capacity + " л";
   }
 }
-
 class Tv extends electricalAppliances {
   constructor(name, color, power, isInclude, diagonal, price) {
     super(name, color, power, isInclude);
@@ -22,7 +20,6 @@ class Tv extends electricalAppliances {
     this.diagonal = diagonal + " дюймов";
   }
 }
-
 class Luster extends electricalAppliances {
   constructor(name, color, power, isInclude, country, price) {
     super(name, color, power, isInclude);
@@ -30,7 +27,6 @@ class Luster extends electricalAppliances {
     this.price = price;
   }
 }
-
 class Room {
   constructor(title, appliances) {
     this.title = title;
@@ -85,4 +81,5 @@ const flat = [
     appliances: hall.appliances
   }
 ];
-console.log(searchDevice('Vele Luce Intenso', flat))
+console.log(searchDevice("Vele Luce Intenso", flat));
+

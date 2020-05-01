@@ -26,7 +26,6 @@ function Hangman(word) {
         return this;
       }
       console.log(this.unspecified.join(""));
-      return this;
     } else {
       this.arrMissSym.push(sym);
       console.log(
@@ -36,24 +35,19 @@ function Hangman(word) {
       );
       return this;
     }
+    return this
   };
   this.getGuessedString = function() {
-    console.log(this.unspecified.join(""));
-    return this;
+    return this.unspecified.join("");
   };
   this.getErrorsLeft = function() {
-    console.log(this.numOfCanMissSym);
-    return this;
+    return this.numOfCanMissSym;
   };
   this.getWrongSymbols = function() {
-    console.log(this.arrMissSym);
-    return this;
+    return this.arrMissSym;
   };
   this.getStatus = function() {
-    console.log(
-      `${this.unspecified.join("")} | errors left ${this.numOfCanMissSym}`
-    );
-    return this;
+    return `${this.unspecified.join("")} | errors left ${this.numOfCanMissSym}`;
   };
   this.startAgain = function(newWord) {
     this.word = newWord;
@@ -63,4 +57,4 @@ function Hangman(word) {
     return this;
   };
 }
-module.exports = Hangman
+let hangman = new Hangman('webpurple')

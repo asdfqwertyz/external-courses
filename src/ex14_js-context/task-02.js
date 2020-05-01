@@ -58,3 +58,4 @@ function Hangman(word) {
   };
 }
 let hangman = new Hangman('webpurple')
+module.exports = hangman

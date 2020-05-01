@@ -91,6 +91,7 @@ const btnSelectCardClick = function() {
 	}
 }
 const openDropDownList = function(list) {
+	createOptionsList(list.offsetParent);
 	for (let i = 0; i < list.offsetParent.children[1].children[1].children[0].childElementCount; i++) {
 		list.offsetParent.children[1].children[1].children[0].children[i].style.display = 'block'	
 	}

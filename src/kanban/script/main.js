@@ -91,7 +91,7 @@ const btnSelectCardClick = function() {
 	}
 }
 const openDropDownList = function(list) {
-	createOptionsList(list.offsetParent);
+	createOptionsList(list.offsetParent)
 	for (let i = 0; i < list.offsetParent.children[1].children[1].children[0].childElementCount; i++) {
 		list.offsetParent.children[1].children[1].children[0].children[i].style.display = 'block'	
 	}
@@ -173,6 +173,8 @@ const btnAddCardClick = function() {
 	this.offsetParent.children[1].scrollTo(0, tasksLists[0].childElementCount*100);
 	document.getElementsByClassName('inputNewCard')[0].style.display = 'block';
 	document.getElementsByClassName('inputNewCard')[0].focus();
+	document.getElementsByClassName('add-card')[1].classList.add('add-card_nohover', 'add-card_noactive');
+	document.getElementsByClassName('add-card')[1].disabled = true;
 }
 
 const inputValidTask = function() {

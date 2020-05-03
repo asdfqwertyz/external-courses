@@ -1,0 +1,28 @@
+.firstVariantBorder, .secondVariantBorder, .thirdVariantBorder {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+.firstVariantBorder {
+    border: 1px solid black;
+}
+
+.secondVariantBorder {
+    position: relative;
+}
+
+.secondVariantBorder::before {
+    content: '';
+    position: absolute;
+    width: 102px;
+    height: 102px;
+    background-color: black;
+    z-index: -1;
+    right: -1px;
+    top: -1px;
+}
+
+.thirdVariantBorder {
+    box-shadow: 0 0 0 1px black;
+}

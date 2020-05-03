@@ -1,0 +1,68 @@
+html {
+	font-size: 14px;
+}
+
+@font-face {
+ 	font-family: PixelTimesBold; 
+ 	src: url(PixelTimesBold.ttf); 
+ }
+
+.block-version-first {
+	background-color: rgba(255,15,6,0.5)
+}
+
+.block-version-second {
+	background-image: url(https://www.xtile.ru/images/content/beige_50.jpg);
+	width: 200px;
+	color: blue;
+	font-family: cursive;
+}
+
+.block-version-third {
+	background-color: #000533;
+	color: #FFFFFF;
+	width: 400px;
+}
+
+.img-styles {
+	padding: 22px;
+	margin-left: 20%;
+	width: 31vh;
+	border: 3px solid black;
+}
+
+.p-styles {
+	outline-style: solid;
+	outline-color: red;
+	outline-offset: 4px;
+	font-family: Arial;
+	text-indent: 10px;
+	font-size: 1.4rem;
+}
+
+.table-styles {
+	text-align: center;
+	background-color: blue;
+	color: rgb(255,255,255);
+	border: 10px dotted lime;
+	border-radius: 40px 10px 40px 10px;
+}
+
+.pre-font-size {
+	font-size: 1.4rem;
+}
+
+.h3-font-family {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+
+.ol-font {
+	color: rgba(200,100,50,0.8);
+	font-weight: bolder;
+	font-size: 1.4rem;
+	font-family: fantasy;
+}
+
+.h1-font-family {
+	font-family: PixelTimesBold;
+}

@@ -253,6 +253,7 @@
 }	
 
 .task-list-select {
+	width: 100%;
 	display: none;
 	position: relative;
 	font-family: Roboto;
@@ -279,6 +280,7 @@
 }
 
 .task-list-select::before {
+	width: inherit;
 	position: absolute;
 	content: "";
 	width: 373px;

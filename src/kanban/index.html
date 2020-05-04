@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kanban</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="script/user-menu.js" async></script>
+		<script type="text/javascript" src="script/main.js" async></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="logo">
+				<div class="logo__icon"></div>
+				<div class="logo__text">Awesome Kanban Board</div>
+			</div>
+			<button class="create-list">Create new list</button>
+			<div class="user-menu">
+				<div class="user-avatar"></div>
+				<div class="arrow-wrap">
+					<div class="arrow_down"></div>
+				</div>
+			</div>
+		</header>
+		<main class="content">
+			<div class="task-block-wrap">
+				<div class="task-block">
+					<div class="task-block__title">Backlog</div>
+					<div class="task-list-wrap">
+						<ol class="task-list">
+							<li class="task-list__item">Посмотреть фильм</li>
+							<li class="task-list__item">Вычислить логарифм</li>
+						</ol>
+						<input required type="text" name="cardname" placeholder="Card name" class="inputNewCard">
+						<button class="add-card">Add card</button>
+					</div>
+				</div>
+			</div>
+			<div class="task-block-wrap">
+				<div class="task-block">
+					<div class="task-block__title">Ready</div>
+				<div class="task-list-wrap">
+						<ol class="task-list">
+							<li class="task-list__item">Найти пароль</li>
+							<li class="task-list__item">Поесть</li>
+						</ol>
+						<ol class="task-list-select">Choose the card
+							<div class="task-list-select-item-wrap"></div>
+						</ol>
+						<button class="add-card">Add card</button>
+					</div>
+				</div>
+			</div>
+			<div class="task-block-wrap">
+				<div class="task-block">
+					<div class="task-block__title">In Progress</div>
+						<div class="task-list-wrap">
+						<ol class="task-list">
+							<li class="task-list__item">Решить уравнение</li>
+						</ol>
+						<ol class="task-list-select">Choose the card
+							<div class="task-list-select-item-wrap"></div>
+						</ol>
+						<button class="add-card">Add card</button>
+					</div>
+				</div>
+			</div>
+			<div class="task-block-wrap">
+				<div class="task-block">
+					<div class="task-block__title">Finished</div>
+					<div class="task-list-wrap">
+						<ol class="task-list">
+							<li class="task-list__item">Найти ключи</li>
+							<li class="task-list__item">Построить дом</li>
+						</ol>
+						<ol class="task-list-select">Choose the card
+							<div class="task-list-select-item-wrap"></div>
+						</ol>
+						<button class="add-card">Add card</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="tasks tasks_active">Active tasks:</div>
+			<div class="tasks tasks_finished">Finished tasks:</div>
+			<div class="about">Kanban board by Max 2020</div>
+  	</footer>
+	</body>
+</html>

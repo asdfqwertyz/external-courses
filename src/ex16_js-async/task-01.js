@@ -1,7 +1,3 @@
-const obj = {
-	name: 'MAX'
-}
-const requestUrl = 'https://jsonplaceholder.typicode.com/users';
 const openRequest = function(method, url, body) {
 	const headers = {
 		'Content-Type': 'application/json'

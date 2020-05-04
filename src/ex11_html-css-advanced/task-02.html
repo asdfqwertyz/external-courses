@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  	<title>Задание 2</title>
+  	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="task-02.css" />
+  </head>
+  <body>
+    <form action="http://httpbin.org/post" method="POST">
+    	<fieldset>
+      	<legend>New Post</legend>
+        	<div class="field">
+          	<input type="text" id="title" name="Title" placeholder="Title" required>
+            <label for="title">Title</label>
+          </div>
+          <div class="twoFieldInline">
+          	<div class="field">
+            	<input type="text" id="price" name="Price" placeholder="Price" required>
+              <label for="price">Price</label>
+            </div>
+            <div class="field">
+            	<input type="text" id="location" name="Location" placeholder="Specific Location (optional)" required>
+              <label for="location">Specific Location (optional)</label>
+            </div>
+          </div>
+          <div class="field">
+          	<input type="text" id="description" name="Description" placeholder="Description" required>
+            <label for="description">Description</label>
+          </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -11,26 +11,26 @@ const btnNextClick = () => {
 	}
 	index++;
 	bgImage.src = `${images[index-1]}`;
-	bgImage.classList.add('bgImage-animation')
-	setTimeout(() => bgImage.classList.remove('bgImage-animation'),1000)
+	bgImage.classList.add('bgImage-animation');
+	setTimeout(() => bgImage.classList.remove('bgImage-animation'),1000);
 }
 const btnPrevClick = () => {
 	if (index <= 1) {
 		index = images.length + 1;
-	}
+	};
 	index--;
 	bgImage.src = `${images[index-1]}`;
-	bgImage.classList.add('bgImage-animation')
-	setTimeout(() => bgImage.classList.remove('bgImage-animation'),1000)
-}
+	bgImage.classList.add('bgImage-animation');
+	setTimeout(() => bgImage.classList.remove('bgImage-animation'),1000);
+};
 const keyBtnClick = function(event) {
 	if (event.keyCode === leftArrow) {
 		btnPrevClick()
-	}	
+	};	
 	if (event.keyCode === rightArrow) {
 		btnNextClick()
-	}
-}
+	};
+};
 btnNext.addEventListener('click', btnNextClick);
 document.addEventListener('keydown', keyBtnClick);
 btnPrev.addEventListener('click', btnPrevClick);

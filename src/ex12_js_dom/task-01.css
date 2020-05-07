@@ -33,6 +33,7 @@
 	border-radius: 15px 15px 0 0;
 	width: 1000px;
 	height: 630px;
+	background-image: url('assets/img1.jpg');
 	transition-property: background-image;
 	transition-duration: 0.5s;
 	transition-timing-function: ease-in-out;

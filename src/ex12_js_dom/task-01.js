@@ -23,7 +23,7 @@ const btnPrevClick = () => {
 	bgImage.classList.add('bgImage-animation')
 	setTimeout(() => bgImage.classList.remove('bgImage-animation'),500)
 }
-const keyBtnClick = function(event) {
+const keyBtnClick = event => {
 	if (event.keyCode === LEFT_ARROW_KEY) {
 		btnPrevClick()
 	}	

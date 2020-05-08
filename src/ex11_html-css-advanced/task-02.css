@@ -6,14 +6,14 @@
     font-weight: 500;
     box-sizing: border-box;
 }
-form {
+.form {
     margin: 100px auto;
     width: 500px;
     padding: 10px;
     background: white;
 }
 
-fieldset {
+.fieldset {
     height: 300px;
     width: 80%;
     margin: 100px auto;
@@ -22,35 +22,36 @@ fieldset {
     border: none;
 }
 
+.twoFieldInline {
+    border: 1px solid #b8b8b8;
+    border-right: none;
+    border-left: none;
+    display: flex;
+}
+
 .field {
     position: relative;
     display: flex;
     flex-grow: 1;
+    padding-right: 5px;
 }
 
-.twoFieldInline {
-    display: flex;
-}
-
-.twoFieldInline .field:nth-child(1) {
+.field__price {
     width: 20%;
     padding-right: 10px;
-    border: 1px solid #b8b8b8;
     border-left: none;
 }
-
-.twoFieldInline .field:nth-child(2) {
+.field__specificLocation {
     padding-left: 10px;
-    border: 1px solid #b8b8b8;
     border-right: none;
-    border-left: none;
+    border-left: 1px solid #b8b8b8; 
 }
 
-legend {
+.legend {
     text-align: center;
 }
 
-input {
+.input {
     width: 100%;
     margin-top: 16px;
     padding: 6px 0px;
@@ -61,7 +62,7 @@ input {
     font-weight: 400;
 }
 
-label {
+.label {
     position: absolute;
     left: 5px;
     top: 7px;
@@ -73,15 +74,15 @@ label {
     transition-timing-function: linear;
 }
 
-input:invalid+label {
+.input:invalid+.label {
     z-index: -1;
 }
 
-input:valid+label {
+.input:valid+.label {
     top: 3px;
     z-index: 1;
 }
 
-input:focus+label {
+.input:focus+.label {
     color: #0379ff;
 }

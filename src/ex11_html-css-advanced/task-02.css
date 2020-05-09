@@ -1,0 +1,88 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+.form {
+    margin: 100px auto;
+    width: 500px;
+    padding: 10px;
+    background: white;
+}
+
+.fieldset {
+    height: 300px;
+    width: 80%;
+    margin: 100px auto;
+    padding: 10px;
+    background: white;
+    border: none;
+}
+
+.twoFieldInline {
+    border: 1px solid #b8b8b8;
+    border-right: none;
+    border-left: none;
+    display: flex;
+}
+
+.field {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    padding-right: 5px;
+}
+
+.field__price {
+    width: 20%;
+    padding-right: 10px;
+    border-left: none;
+}
+.field__specificLocation {
+    padding-left: 10px;
+    border-right: none;
+    border-left: 1px solid #b8b8b8; 
+}
+
+.legend {
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    margin-top: 16px;
+    padding: 6px 0px;
+    padding-left: 6px;
+    border: none;
+    caret-color: #0379ff;
+    outline: none;
+    font-weight: 400;
+}
+
+.label {
+    position: absolute;
+    left: 5px;
+    top: 7px;
+    color: #b8b8b8;
+    font-size: 0.7rem;
+    text-align: left;
+    transition-duration: 0.2s;
+    transition-property: top;
+    transition-timing-function: linear;
+}
+
+.input:invalid+.label {
+    z-index: -1;
+}
+
+.input:valid+.label {
+    top: 3px;
+    z-index: 1;
+}
+
+.input:focus+.label {
+    color: #0379ff;
+}
